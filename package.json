@@ -1,0 +1,47 @@
+{
+  "name": "southpoolskeptics-cms",
+  "version": "1.0.0",
+  "homepage": "https://southpoolskeptics.com/home",
+  "description": "A content management system for South Pool Skeptics website.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.1.7",
+    "gh-pages": "^6.3.0",
+    "typescript": "^4.1.3"
+  },
+  "keywords": [
+    "cms",
+    "south pool skeptics",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
