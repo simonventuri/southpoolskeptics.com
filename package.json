@@ -1,12 +1,9 @@
 {
   "name": "southpoolskeptics-cms",
   "version": "1.0.0",
-  "homepage": "https://southpoolskeptics.com/home",
   "description": "A content management system for South Pool Skeptics website.",
   "main": "src/index.tsx",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
