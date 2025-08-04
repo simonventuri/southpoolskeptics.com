@@ -5,7 +5,7 @@ const Home: React.FC = () => {
     <div id="content">
       <p><i>“Extraordinary claims require extraordinary evidence”</i> - Carl Sagan</p>
       <p>
-        We are a new local group meeting on the first Tuesday of the month at the Millbrook Inn in South Pool (and other
+        We are a new local group meeting sporadically at the Millbrook Inn in South Pool (and other
         local pubs) to explore science, critical thinking, and rational inquiry over a friendly pint. Inspired by the
         global <a href="https://skepticsinthepub.org" target="_blank" rel="noopener noreferrer">'Skeptics in the Pub'</a> movement, we welcome
         everyone — from curious newcomers to seasoned skeptics. No jargon, no preaching — just thoughtful conversation in
@@ -16,7 +16,7 @@ const Home: React.FC = () => {
         <h2 className='gapped'>Next meeting</h2>
         <ul>
           <li><strong>Where:</strong> Millbrook Inn, South Pool</li>
-          <li><strong>When:</strong> October 7th, 20:00</li>
+          <li><strong>When:</strong> Wednesday, October 8th, 20:00</li>
           <li><strong>What:</strong> Introduction to scientific skepticism & pints.</li>
         </ul>
       </section>
