@@ -7,7 +7,7 @@ const MainContent: React.FC = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/" exact component={Home} />
+        <Route path="/home" exact component={Home} />
         <Route path="/skepticism" exact component={Skepticism} />
       </Switch>
     </Router>
