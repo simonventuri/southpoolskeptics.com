@@ -3,7 +3,7 @@ import React from 'react';
 const Home: React.FC = () => {
   return (
     <div id="content">
-      <h2>Welcome to South Pool Skeptics</h2>
+      <p><i>“Extraordinary claims require extraordinary evidence”</i> - Carl Sagan</p>
       <p>
         We are a new local group meeting on the first Tuesday of the month at the Millbrook Inn in South Pool (and other
         local pubs) to explore science, critical thinking, and rational inquiry over a friendly pint. Inspired by the
@@ -17,8 +17,7 @@ const Home: React.FC = () => {
         <ul>
           <li><strong>Where:</strong> Millbrook Inn, South Pool</li>
           <li><strong>When:</strong> October 7th, 20:00</li>
-          <li><strong>Who:</strong> Anyone interested in science, skepticism, and critical thinking</li>
-          <li><strong>What:</strong> Introduction to scientific skepticism, informal discussions, book recommendations, and pints.</li>
+          <li><strong>What:</strong> Introduction to scientific skepticism & pints.</li>
         </ul>
       </section>
 

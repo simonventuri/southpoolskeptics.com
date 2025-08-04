@@ -1,6 +1,7 @@
 {
   "name": "southpoolskeptics-cms",
   "version": "1.0.0",
+  "homepage": "/home",
   "description": "A content management system for South Pool Skeptics website.",
   "main": "src/index.tsx",
   "scripts": {
