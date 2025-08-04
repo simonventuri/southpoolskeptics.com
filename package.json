@@ -1,12 +1,12 @@
 {
   "name": "southpoolskeptics-cms",
   "version": "1.0.0",
-  "homepage": "/home",
+  "homepage": ".",
   "description": "A content management system for South Pool Skeptics website.",
   "main": "src/index.tsx",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && netlify-lambda build netlify/functions",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

@@ -14,7 +14,8 @@ const App = () => {
       <Header />
       <MainContent>
         <Switch>
-          <Route path="/home" exact component={Home} />
+          <Route path="/" exact component={Home} />
+          <Route path="/home" component={Home} />
           <Route path="/skepticism" component={Skepticism} />
         </Switch>
       </MainContent>

@@ -1,16 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from '../pages/Home';
-import Skepticism from '../pages/Skepticism';
 
-const MainContent: React.FC = () => {
+interface MainContentProps {
+  children: React.ReactNode;
+}
+
+const MainContent: React.FC<MainContentProps> = ({ children }) => {
   return (
-    <Router>
-      <Switch>
-        <Route path="/home" exact component={Home} />
-        <Route path="/skepticism" exact component={Skepticism} />
-      </Switch>
-    </Router>
+    <main>
+      {children}
+    </main>
   );
 };
 

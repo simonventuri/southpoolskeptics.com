@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
   const location = useLocation();
@@ -8,8 +8,8 @@ const Header: React.FC = () => {
     <header>
       <img src="/logo.png" alt="South Pool Skeptics Logo" />
       <nav>
-        <a href="/home" className={location.pathname === '/home' ? 'active' : ''}>Home</a>
-        <a href="/skepticism" className={location.pathname === '/skepticism' ? 'active' : ''}>What is Scientific Skepticism?</a>
+        <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Home</Link>
+        <Link to="/skepticism" className={location.pathname === '/skepticism' ? 'active' : ''}>What is Scientific Skepticism?</Link>
       </nav>
     </header>
   );
