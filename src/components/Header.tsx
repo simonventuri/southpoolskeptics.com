@@ -10,6 +10,7 @@ const Header: React.FC = () => {
       <nav>
         <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Home</Link>
         <Link to="/skepticism" className={location.pathname === '/skepticism' ? 'active' : ''}>What is Scientific Skepticism?</Link>
+        <Link to="/events" className={location.pathname === '/events' ? 'active' : ''}>Events</Link>
       </nav>
     </header>
   );

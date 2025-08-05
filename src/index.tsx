@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import MainContent from './components/MainContent';
 import Home from './pages/Home';
 import Skepticism from './pages/Skepticism';
+import Events from './pages/Events';
 import './styles/global.css';
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/" exact component={Home} />
           <Route path="/home" component={Home} />
           <Route path="/skepticism" component={Skepticism} />
+          <Route path="/events" component={Events} />
         </Switch>
       </MainContent>
       <Footer />

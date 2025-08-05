@@ -3,7 +3,6 @@ import React from 'react';
 const Skepticism: React.FC = () => {
   return (
     <div id="content">
-      <h2>What is Scientific Skepticism?</h2>
       <p>
         Scientific skepticism is a method of evaluating claims based on empirical evidence and logical reasoning. It
         involves questioning beliefs and ideas, testing them through observation and experiment, and maintaining an open
